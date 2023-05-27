@@ -11,9 +11,21 @@
     <title></title>
     <link></link>
     <description>
-      <grammar context="phrase"><gender>#{gender}</gender><noun>#{noun}</noun><conjucation>#{conjucation}</conjucation><verb>#{verb}<verb></adverb>#{adverb}<adverb><punctuation>#{punctuation}</punctuation></grammar>
-      <grammar context="phrase"><gender>#{gender}</gender><noun>#{noun}</noun><conjucation>#{conjucation}</conjucation><verb>#{verb}<verb></adverb>#{adverb}<adverb><punctuation>#{punctuation}</punctuation></grammar>
-      <grammar context="phrase"><gender>#{gender}</gender><noun>#{noun}</noun><conjucation>#{conjucation}</conjucation><verb>#{verb}<verb></adverb>#{adverb}<adverb><punctuation>#{punctuation}</punctuation></grammar>
+      <example_sentence>
+      <grammar context="phrase"><gender>#{gender}</gender><noun>#{noun}</noun><conjucation>#{conjucation}</conjucation><verb>#{verb}<verb><adverb>#{adverb}</adverb><punctuation>#{punctuation}</punctuation></grammar>
+      <example_sentence>
+        
+      <collumn>
+        <grammar context="phrase">
+          <gender>#{gender}</gender>
+          <noun>#{noun}</noun>
+          <conjucation>#{conjucation}</conjucation>
+          <verb>#{verb}<verb>
+          <adverb>#{adverb}</adverb>
+          <punctuation>#{punctuation}</punctuation>
+        </grammar>
+      </collumn>
+          
     </description>
   </item>
 </channel>
