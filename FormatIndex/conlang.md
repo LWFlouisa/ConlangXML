@@ -1,5 +1,4 @@
 ## A Possible XML Format
-
 ~~~xml
 <rss>
 <channel>
@@ -30,4 +29,10 @@
   </item>
 </channel>
 </rss>
+~~~
+
+## Marshalling XML In Ruby
+How to generate a natural language xml from a marshall.
+
+~~~ruby
 ~~~
