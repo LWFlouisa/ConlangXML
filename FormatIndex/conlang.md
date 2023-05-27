@@ -1,3 +1,6 @@
+## A Possible XML Format
+
+~~~xml
 <channel>
   <title>Personal Blog</title>
   <link>http://localhost:8000/feed.xml</link>
@@ -15,3 +18,4 @@
 </channel>
 
 </rss>
+~~~
