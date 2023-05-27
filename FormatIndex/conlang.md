@@ -1,5 +1,7 @@
+## Processing Marshall Locally
+Marshalling data is processed on the local machine rather than on a web server, such as localhost.
 
-## Marshalling XML In Ruby
+### Marshalling XML In Ruby
 How to generate a natural language xml from a marshall.
 
 ~~~ruby
@@ -31,11 +33,14 @@ File.write("adverb.bin",           adverb)
 File.write("punctuation.bin", punctuation)
 ~~~
 
-## Extracting Data For Processing Into RSS Over IPFS
+### Extracting Data For Processing Into RSS Over IPFS
 ~~~ruby
+
 ~~~
 
-## A Possible XML Format
+# Preparing For Distribution Over IPFS
+Process for deserialization and preparing as an RSS feed.
+
 ~~~xml
 <rss>
 <channel>
