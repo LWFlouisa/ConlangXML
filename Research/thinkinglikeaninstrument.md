@@ -121,3 +121,25 @@ Here's a high-level overview of the process:
 4. Test the app on a compatible piano to ensure proper functionality.
 
 By following these steps, you can create a smart piano connected to a tablet that generates different animations based on the keys pressed. 
+
+
+## My Prompt
+Interesting, you mentioned Python, but I didn't say that explicitely. What is your thinking on why python may be the approach? Suzanne Gildert of Sanctuary AI seems to be of the idea of the embodied theory of intelligence. I have my own theories, but I'll refrain for now.
+
+## Phind Says
+Python is a popular programming language for various reasons, such as its simplicity, versatility, and extensive support for a wide range of applications, including AI and machine learning [Source 4](https://python.land/python-tutorial). It is also open-source and has a large community, which means that you can find numerous libraries and resources to help you with your projects [Source 9](https://www.simplilearn.com/why-python-is-essential-for-data-analysis-article).
+
+Python's simplicity and readability make it an excellent choice for beginners and experts alike. Its syntax is clean and easy to understand, which can lead to faster development times and easier collaboration among team members. Python's flexibility and extensive library support make it suitable for a wide range of applications, including AI, machine learning, and data analysis [Source 7](https://blog.finxter.com/what-is-the-fastest-and-easiest-way-to-learn-python-programming/).
+
+In the context of creating a smart piano connected to a tablet, Python is a good choice due to its simplicity, versatility, and extensive support for Android app development. By using Python, you can leverage the available libraries and frameworks to create your smart piano application more efficiently. Additionally, Python's large community and extensive resources make it easier to find help and support if needed.
+
+
+## My Prompt
+Whether it's a smart piano, or even a human like robot that thinks like a piano, do you specifically have CircuitPython in mind? I often use more than one scripting language for different tasks.
+
+## Ask Phind
+Apologies for the confusion. I didn't mean to suggest CircuitPython specifically. CircuitPython is a subset of MicroPython and is designed for microcontrollers and embedded systems [Source 13](https://www.libhunt.com/compare-circuitpython-vs-micropython). However, you can use other scripting languages like Lua, Squirrel, or even Java for embedded systems, depending on your requirements and the target platform [Source 10](https://www.qt.io/embedded-development-talk/embedded-software-programming-languages-pros-cons-and-comparisons-of-popular-languages).
+
+For a smart piano connected to a tablet that generates different animations based on the keys pressed, you can choose the scripting language that best suits your needs and the target platform. If you are working with microcontrollers or embedded systems, CircuitPython or MicroPython might be a suitable choice. However, if you are targeting Android, Java or Kotlin might be more appropriate.
+
+In the context of Suzanne Gildert's idea of the embodied theory of intelligence and a human-like robot that thinks like a piano, you could use a combination of scripting languages to handle different tasks. For example, you could use Python for high-level logic and decision-making, while using a scripting language like CircuitPython or MicroPython for low-level control and communication with the robot's hardware components. 
