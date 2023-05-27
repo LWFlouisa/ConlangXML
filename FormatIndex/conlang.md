@@ -35,4 +35,30 @@
 How to generate a natural language xml from a marshall.
 
 ~~~ruby
+# Grammar Symbols, Specific Tokens, and its descriptors as strings.
+gender      = :gender,      "Le",    "Gender"
+noun        = :noun,        "pomme", "Noun"
+adjective   = :adjective,   "rouge", "Adjective"
+conjucation = :conjucation, "es",    "Conjucation"
+verb        = :verb,        "tres",  "Verb"
+adverb      = :adverb,      "grand", "Adverb"
+punctuation = :punctuation, ".",     "Punctuation"
+
+# Dumping individual grammatical components.
+gender_dump      = Marshal.dump(gender)
+noun_dump        = Marshal.dump(noun)
+adjective_dump   = Marshal.dump(adjective)
+conjucation_dump = Marshal.dump(conjucation)
+verb_dump        = Marshal.dump(verb)
+adverb_dump      = Marshal.dump(adverb)
+punctuation_dump = Marshal.dump(punctuation)
+
+# Write the serialized data to a file
+File.write("gender.bin",           gender)
+File.write("noun.bin",               noun)
+File.write("adjective.bin",     adjective)
+File.write("conjucation.bin", conjucation)
+File.write("verb.bin",               verb)
+File.write("adverb.bin",           adverb)
+File.write("punctuation.bin", punctuation)
 ~~~
