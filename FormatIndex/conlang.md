@@ -4,7 +4,7 @@
 <channel>
   <title>Natural Language Machine Diary</title>
   <link></link>
-  <description>Local Feed for ASPI output.</description>    
+  <description>Local Feed for the Ahusacos Conlang.</description>    
   
   <item>
     <title></title>
