@@ -35,7 +35,35 @@ File.write("punctuation.bin", punctuation)
 
 ### Extracting Data For Processing Into RSS Over IPFS
 ~~~ruby
+# Reading in bin files, and processing into an RSS feed.
+gender_bin      = File.read("_data/gender.bin")
+noun_bin        = File.read("_data/noun.bin")
+adjective_bin   = File.read("_data/adjective.bin")
+conjucation_bin = File.read("_data/conjucation.bin")
+verb_bin        = File.read("_data/verb.bin")
+adverb_bin      = File.read("_data/adverb.bin")
+punctuation_bin = File.read("_data/punctuation.bin")
 
+# Deserialize the serialized data
+gender      = Marshal.load(gender_bin)
+noun        = Marshal.load(noun_bin)
+adjective   = Marshal.load(adjective_bin)
+conjucation = Marshal.load(conjucation_bin)
+verb        = Marshal.load(verb_bin)
+adverb      = Marshal.load(adverb_bin)
+punctuation = Marshal.load(punctuation_bin)
+
+puts "#{gender[1]} #{noun[1]} #{adjective[1]} #{conjucation[1]} #{verb[1]} #{adverb[1]}#{punctuation[1]}
+
+"
+
+puts "#{gender[0]}      #{gender[1]}"
+puts "#{noun[0]}        #{noun[1]}"
+puts "#{adjective[0]}   #{adjective[1]}"
+puts "#{conjucation[0]} #{conjucation[1]}"
+puts "#{verb[0]}        #{verb[1]}"
+puts "#{adverb[0]}      #{adverb[1]}"
+puts "#{punctuation[0]} #{punctuation[1]}"
 ~~~
 
 # Preparing For Distribution Over IPFS
